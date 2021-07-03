@@ -1,8 +1,8 @@
 from flask import Flask, render_template, request, redirect, url_for
 from joblib import load
-from request_tweets import get_related_tweets
+from get_tweets import get_related_tweets
 
-pipeline = load('text_classification.joblib')
+pipeline = load("text_classification.joblib")
 
 def requestResults(name):
     tweets = get_related_tweets(name)
