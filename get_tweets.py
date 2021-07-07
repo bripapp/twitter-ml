@@ -1,7 +1,9 @@
 import tweepy
 import time
 import pandas as pd
-pd.set_option('display.max_colwidth', 1000)
+# pd.set_option('display.max_colwidth', 1000)
+pd.set_option('display.expand_frame_repr', False)
+
 
 # api key
 api_key = "a1FlXVMCqmmvEPForypkPsjv5"
