@@ -1,0 +1,82 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(rgb(2, 174, 204), white) no-repeat;
+
+}
+.header {
+    text-align: center;
+    padding-top: 220px;
+    padding-bottom: 60px;
+    text-decoration: underline;
+}
+
+.topnav {
+    margin: auto;
+    border: 3px solid rgba(0, 217, 255, 0.877);
+    padding: 5px;
+    width: 35%;
+    background-color: white;
+}
+
+.topnav input[type=text] {
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    width: 80%;
+    margin: auto;
+  }
+  
+  .topnav .search-container button {
+    padding: 10px;
+    margin-right: auto;
+    background: #ddd;
+    font-size: 11px;
+    cursor: pointer;
+    width: 40px;
+  }
+  
+  .topnav .search-container button:hover {
+    background: #ccc;
+  }
+
+
+
+/* <!-- <style>
+* {box-sizing: border-box;}
+
+
+
+
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+} 
+
+.topnav .search-container {
+  vertical-align: middle;
+  width: 500px;
+  background-color: brown;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
+</style> --> */
