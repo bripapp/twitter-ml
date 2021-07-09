@@ -1,20 +1,25 @@
 body {
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: linear-gradient(rgb(2, 174, 204), white) no-repeat;
+    font-family: Cambria;
+    background: linear-gradient(rgb(76, 7, 236), white) no-repeat;
 
 }
 .header {
     text-align: center;
-    padding-top: 220px;
-    padding-bottom: 60px;
+    padding-top: 200px;
+    padding-bottom: 1px;
     text-decoration: underline;
+}
+.subtitle {
+  text-align: center;
+  padding-top: .5px;
+  padding-bottom: 20px;
 }
 
 .topnav {
     margin: auto;
-    border: 3px solid rgba(0, 217, 255, 0.877);
+    border: 3px solid rgb(138, 5, 116);
     padding: 5px;
     width: 35%;
     background-color: white;
@@ -24,7 +29,7 @@ body {
     padding: 10px;
     font-size: 15px;
     border: none;
-    width: 80%;
+    width: 85%;
     margin: auto;
   }
   
@@ -34,9 +39,9 @@ body {
     background: #ddd;
     font-size: 11px;
     cursor: pointer;
-    width: 40px;
+    width: 50px;
   }
   
   .topnav .search-container button:hover {
-    background: #ccc;
+    background: rgb(112, 83, 110);
   }
